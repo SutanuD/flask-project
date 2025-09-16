@@ -3,8 +3,8 @@ from pathlib import Path
 from flask import Blueprint, jsonify, current_app, send_from_directory, abort, request
 from pydantic import BaseModel, ValidationError
 
-from app.hyrag import chat_router
-from app.knowledge import build_kb
+from application.hyrag import chat_router
+from application.knowledge import build_kb
 
 bp = Blueprint('main', __name__)
 
