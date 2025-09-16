@@ -1,0 +1,16 @@
+Flask
+pymupdf
+faiss-cpu
+openai
+tiktoken
+fastapi
+uvicorn
+python-multipart
+pydantic
+pyngrok
+pandas
+numpy
+rank-bm25
+Werkzeug<3
+scikit-learn
+gunicorn
